@@ -1,0 +1,19 @@
+
+
+5 >
+sudo docker exec -it pyContainer /bin/bash
+
+
+7th
+
+pth ->. /home/ec2-user
+
+docker run -dit --name=pyC\
+-v /home/ec2-user/testfolder:/myfolder\
+python:3.8-slim
+
+
+
+ docker run -dit --name=pyC\
+-v /home/ec2-user/testfolder:/myfolder\
+python:3.8-slim

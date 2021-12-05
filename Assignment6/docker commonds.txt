@@ -1,0 +1,62 @@
+Fisrt connect to instance using ssh commond
+
+Part 1
+
+ssh -i "CS351-2021.pem" ec2-user@ec2-54-87-169-29.compute-1.amazonaws.com
+
+
+run-> sudo yum update -y.   for updation
+
+run-> sudo yum install docker docker.io -y    for install docker
+
+
+run-> docker    to check docker is working or not
+
+run-> sudo service docker start
+
+
+
+
+
+2>
+Sudo docker pull python:3.8-slim
+
+
+sudo docker image
+
+
+3>
+sudo docker run -dit --name= pyContainer python:3.8-slim
+
+Sudo docker container ls
+
+
+4>
+Sudo docker exec -it pContainer /bin/bash
+
+5>
+In root@3b6af38dec31/#  Python -c"print('hello world')"
+>hello world
+
+Check version
+
+python --version
+
+>python 3.9.12
+
+ls
+
+Exit
+
+
+
+
+ 
+
+
+
+
+
+
+
+
